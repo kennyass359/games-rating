@@ -1,0 +1,39 @@
+{
+  "name": "game_rating",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "format": "prettier .",
+    "dev": "nodemon ./app.js",
+    "start": "node ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lexpearson/practicum-gamenoda-m5_n2.git"
+  },
+  "keywords": [
+    "yandex",
+    "practicum",
+    "yandex practicum",
+    "game_rating",
+    "lexpearson",
+    "nodemon",
+    "develop",
+    "prettier",
+    "commonjs",
+    "common js",
+    "yarn"
+  ],
+  "author": "LexPearson <u.stonks.in.my.eyes@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lexpearson/practicum-gamenoda-m5_n2/issues"
+  },
+  "homepage": "https://github.com/lexpearson/practicum-gamenoda-m5_n2#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5"
+  }
+}
