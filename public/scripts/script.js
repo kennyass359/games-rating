@@ -41,7 +41,7 @@ form.addEventListener("submit", async event => {
   const ul = document.createElement("ul");
   ul.classList.add("box");
   const h2 = document.createElement("h2");
-  h2.textContent = "Game rating:";
+  h2.textContent = "Рейтинг игр:";
   ul.append(h2);
   result.forEach(element => {
     const li = document.createElement("li");
@@ -49,7 +49,7 @@ form.addEventListener("submit", async event => {
     ul.append(li);
   });
   const button = document.createElement("button");
-  button.textContent = "Another random game";
+  button.textContent = "Ещё одна рандомная игра";
   button.classList.add("play-again");
   ul.append(button);
   document.querySelector("main").append(ul);
