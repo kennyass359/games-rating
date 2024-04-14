@@ -23,4 +23,4 @@ const server = http.createServer((req, res) => {
 	}
 });
 
-server.listen(PORT, () => console.log(`✅ - http://localhost:${PORT}\nServer was worked on PORT ${PORT}.`));
+server.listen(PORT, () => console.log("launch 3005"));
